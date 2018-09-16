@@ -1,0 +1,144 @@
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    
+}
+
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Exodar-Outline';
+}
+
+video {
+    transition: 0.4s;
+}
+
+.box {
+    
+    position: absolute;
+    left:50%;
+     top:40%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+
+input {
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'EB Garamond', serif;
+    padding-left: 0.6rem;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+
+.button {
+    
+    font-family: 'EB Garamond', serif;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.aLink {
+    color: white;
+    text-align: center;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgba(255, 255, 255, 0.9)!important;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    margin-top: 35rem;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.textfield {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1.1rem;
+}
+
+.video-blur {
+
+    filter: blur(5px);
+}
+
+.error_code {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+#box-welcome {
+    position: absolute;
+    width: 50%;
+    top: 10%;  
+    left: 10%; 
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: rgba(53, 152, 180, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    padding: 10rem;
+    margin-top: 6rem;
+    transition: 3s;
+    transform: skewX(40deg);
+  transform: skewY(10deg);
+}
+
+.content-welcome {
+    text-align: right;
+}
+
+.typewrite {
+    position: absolute;
+    top: 20rem;
+    left: 2%;
+    color: white;
+    z-index: 10;
+    font-size: 3.2rem;
+    letter-spacing: 15px;
+
+}
+
+#logout {
+    position: absolute;
+    top: 30%;  
+    left: 10%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    z-index: 10;
+}
